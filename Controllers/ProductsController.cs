@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,12 +21,14 @@ namespace TiendaOnline.Controllers
         }
 
         // GET: Products
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Product.ToListAsync());
         }
 
         // GET: Products/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,6 +47,7 @@ namespace TiendaOnline.Controllers
         }
 
         // GET: Products/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -66,6 +70,7 @@ namespace TiendaOnline.Controllers
         }
 
         // GET: Products/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -86,6 +91,7 @@ namespace TiendaOnline.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Picture,Category,Price,Brand,Units")] Product product)
         {
             if (id != product.Id)
@@ -117,6 +123,7 @@ namespace TiendaOnline.Controllers
         }
 
         // GET: Products/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -137,6 +144,7 @@ namespace TiendaOnline.Controllers
         // POST: Products/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var product = await _context.Product.FindAsync(id);

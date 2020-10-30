@@ -92,8 +92,6 @@ C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\obj\Debug\netcoreapp3.1\static
 C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\obj\Debug\netcoreapp3.1\TiendaOnline.dll
 C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\obj\Debug\netcoreapp3.1\TiendaOnline.pdb
 C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\obj\Debug\netcoreapp3.1\TiendaOnline.genruntimeconfig.cache
-C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
-C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\obj\Debug\netcoreapp3.1\Razor\Views\Product\Welcome.cshtml.g.cs
 C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\COMBA SERVER 1\source\repos\TiendaOnline\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll

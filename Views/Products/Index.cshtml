@@ -40,7 +40,9 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Picture)
+                <center>
+                    <img src="@Html.DisplayFor(modelItem => item.Picture)" alt="@Html.DisplayFor(modelItem => item.Name)" width="100" style="border: 1px solid #ddd;" />
+                </center>                
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Category)
