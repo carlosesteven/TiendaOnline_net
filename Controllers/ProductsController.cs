@@ -24,7 +24,7 @@ namespace TiendaOnline.Controllers
         public async Task<IActionResult> Index()
         {
             return View(await _context.Product.ToListAsync());
-        }
+        } 
 
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
