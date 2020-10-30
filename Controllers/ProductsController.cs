@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Grpc.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TiendaOnline.Data;
 using TiendaOnline.Models;
@@ -28,7 +27,6 @@ namespace TiendaOnline.Controllers
         }
 
         // GET: Products/Details/5
-        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -76,7 +74,7 @@ namespace TiendaOnline.Controllers
             if (id == null)
             {
                 return NotFound();
-            }
+            }           
 
             var product = await _context.Product.FindAsync(id);
             if (product == null)

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eJAvQM7lcxYMmhatibcgb8ae13SPMrxZq92HDw1FpVKlrAHsRvpB3ABNTg88XPxmG1X9fkxLjE89hMkiGi99IQ==",
+  "dgSpecHash": "A2LX5SP7TZotaYHZPkkv9M69wTgntOleFLQlPDpl9ECU0b8Bb8nuJWl0LrJxAa6EymNLoSdYk210vzVuGz/1xg==",
   "success": true,
   "projectFilePath": "C:\\Users\\COMBA SERVER 1\\source\\repos\\TiendaOnline\\TiendaOnline.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\COMBA SERVER 1\\.nuget\\packages\\grpc.core\\2.33.1\\grpc.core.2.33.1.nupkg.sha512",
+    "C:\\Users\\COMBA SERVER 1\\.nuget\\packages\\grpc.core.api\\2.33.1\\grpc.core.api.2.33.1.nupkg.sha512",
     "C:\\Users\\COMBA SERVER 1\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.7\\microsoft.aspnetcore.cryptography.internal.3.1.7.nupkg.sha512",
     "C:\\Users\\COMBA SERVER 1\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.7\\microsoft.aspnetcore.cryptography.keyderivation.3.1.7.nupkg.sha512",
     "C:\\Users\\COMBA SERVER 1\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.7\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.7.nupkg.sha512",
