@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\COMBA SERVER 1\\source\\repos\\TiendaOnline\\TiendaOnline.csproj": {}
+    "C:\\Users\\COMBA VR 2\\source\\repos\\TiendaOnline_net\\TiendaOnline.csproj": {}
   },
   "projects": {
-    "C:\\Users\\COMBA SERVER 1\\source\\repos\\TiendaOnline\\TiendaOnline.csproj": {
+    "C:\\Users\\COMBA VR 2\\source\\repos\\TiendaOnline_net\\TiendaOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\COMBA SERVER 1\\source\\repos\\TiendaOnline\\TiendaOnline.csproj",
+        "projectUniqueName": "C:\\Users\\COMBA VR 2\\source\\repos\\TiendaOnline_net\\TiendaOnline.csproj",
         "projectName": "TiendaOnline",
-        "projectPath": "C:\\Users\\COMBA SERVER 1\\source\\repos\\TiendaOnline\\TiendaOnline.csproj",
-        "packagesPath": "C:\\Users\\COMBA SERVER 1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\COMBA SERVER 1\\source\\repos\\TiendaOnline\\obj\\",
+        "projectPath": "C:\\Users\\COMBA VR 2\\source\\repos\\TiendaOnline_net\\TiendaOnline.csproj",
+        "packagesPath": "C:\\Users\\COMBA VR 2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COMBA VR 2\\source\\repos\\TiendaOnline_net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\COMBA SERVER 1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COMBA VR 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
