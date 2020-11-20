@@ -479,3 +479,4 @@ C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Tienda
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
