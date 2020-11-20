@@ -9,10 +9,12 @@ namespace TiendaOnline.Controllers
     public class AdministrationController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;
+        private readonly UserManager<IdentityUser> userManager;
 
-        public AdministrationController(RoleManager<IdentityRole> roleManager)
+        public AdministrationController(RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
         {
             this.roleManager = roleManager;
+            this.userManager = userManager;
         }
 
         [HttpGet]
@@ -77,7 +79,7 @@ namespace TiendaOnline.Controllers
                 Id = role.Id,
                 RoleName = role.Name
             };
-            /*
+            //*
             // Retrieve all the Users
             foreach (var user in userManager.Users)
             {
@@ -88,7 +90,8 @@ namespace TiendaOnline.Controllers
                 {
                     model.Users.Add(user.UserName);
                 }
-            }*/
+            }
+            //*/
 
             return View(model);
         }
@@ -113,7 +116,7 @@ namespace TiendaOnline.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("ListRoles");
+                    return RedirectToAction("Index");
                 }
 
                 foreach (var error in result.Errors)
