@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\COMBA SERVER 1\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\COMBA SERVER 1\\.nuget\\packages"
+      "C:\\Users\\COMBA VR 2\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\COMBA VR 2\\.nuget\\packages"
     ]
   }
 }
