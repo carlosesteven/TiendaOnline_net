@@ -405,9 +405,6 @@ C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\bin\Debug\netcoreapp3.1\runtim
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.csprojAssemblyReference.cache
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.AssemblyInfoInputs.cache
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.AssemblyInfo.cs
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.csproj.CoreCompileInputs.cache
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.RazorAssemblyInfo.cache
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.RazorAssemblyInfo.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.TagHelpers.input.cache
@@ -475,4 +472,9 @@ C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Tienda
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.pdb
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.genruntimeconfig.cache
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Administration\Index.cshtml.g.cs
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListRoles.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.csproj.CoreCompileInputs.cache
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.MvcApplicationPartsAssemblyInfo.cache

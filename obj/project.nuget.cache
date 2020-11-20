@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+ajqy4MeVwNl5NFq0CqE7pyeiWxwYRI+NF4iXIywYsded2rOH2rTjBGpZfS7rI49kLKWsh/yARYlv0p1Cz2Mg==",
+  "dgSpecHash": "c8pvp89hnRJF+ulaJ2gZtYpRmm0Ivp/9PthcHjXvUxJMseCmf4iOoMw45kNZk9OsEhI0J2hMD9xQCH8NMQWkrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\COMBA VR 2\\source\\repos\\TiendaOnline_net\\TiendaOnline.csproj",
   "expectedPackageFiles": [
@@ -183,7 +183,9 @@
     "C:\\Users\\COMBA VR 2\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\COMBA VR 2\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\COMBA VR 2\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\COMBA VR 2\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\COMBA VR 2\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\COMBA VR 2\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\COMBA VR 2\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }
