@@ -7,7 +7,7 @@ namespace TiendaOnline.Models
 {
     public class CartObj
     {
-        public List<Product> Product { get; set; }
+        public Product Product { get; set; }
         public int Amount { get; set; }
     }
 }
