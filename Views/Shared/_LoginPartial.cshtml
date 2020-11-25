@@ -3,16 +3,21 @@
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
+
+    <!-- ESTE IF SOLO SE EJECUTA SI SE ESTA AUTENTICADO UN USUARIO -->
     @if (SignInManager.IsSignedIn(User))
     {
+        // OBTIENE EL USUARIO ACTUAL
         var currentUser = await UserManager.GetUserAsync(User);
 
+        // SE VALIDA EL ROL DEL USUARIO
         var isAdmin = currentUser != null && await UserManager.IsInRoleAsync(currentUser, "Admin");
 
         <li class="nav-item">
             <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><b>@User.Identity.Name</b></a>
         </li>
 
+        // ESTO SOLO APARECERA A LOS USUARIOS CON ROL DEL ADMIN
         if (isAdmin)
         {
             <li class="nav-item">
