@@ -4,13 +4,10 @@
 
 <ul class="navbar-nav">
 
-    <!-- ESTE IF SOLO SE EJECUTA SI SE ESTA AUTENTICADO UN USUARIO -->
     @if (SignInManager.IsSignedIn(User))
     {
-        // OBTIENE EL USUARIO ACTUAL
         var currentUser = await UserManager.GetUserAsync(User);
 
-        // SE VALIDA EL ROL DEL USUARIO
         var isAdmin = currentUser != null && await UserManager.IsInRoleAsync(currentUser, "Admin");
 
         <li class="nav-item">
@@ -41,6 +38,18 @@
         </li>
         <li class="nav-item">
             <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+</ul>
+
+<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </li>    
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Cart" asp-action="Index">Cart</a>
         </li>
     }
 </ul>

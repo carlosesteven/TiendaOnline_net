@@ -8,7 +8,19 @@ namespace TiendaOnline.Models
     public class Cart
     {
         public int Id { get; set; }
-        public List<CartObj> Products { get; set; }
-        public string User { get; set; }
+
+        public int ProductId { get; set; }
+
+        public string ProductName { get; set; }
+
+        public string ProductPicture { get; set; }
+
+        public int ProductPrice { get; set; }
+
+        public int ProductAmount { get; set; }
+
+        public int ProductTotal { get; set; }        
+
+        public string UserId { get; set; }
     }
 }

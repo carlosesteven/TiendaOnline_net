@@ -1,16 +1,18 @@
 ﻿@model IEnumerable<TiendaOnline.Models.Product>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Products List";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Products</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<div class="text-right">
+    <a asp-action="Create">
+        <button class="btn btn-xs btn-info font-weight-bold">New Product</button>
+    </a>
+</div>
+<table class="table text-center mt-3">
     <thead>
         <tr>
             <th>
@@ -31,7 +33,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Units)
             </th>
-            <th></th>
+            <th>
+                Options
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -45,7 +49,7 @@
                     <img src="@Url.Content("~")/Content/Images/@item.Picture"
                          alt="@item.Name"
                          width="100"
-                         style="border: 1px solid #ddd;" />
+                         />
                 </center>
             </td>
             <td>

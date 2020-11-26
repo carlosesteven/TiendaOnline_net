@@ -1,0 +1,57 @@
+﻿@model TiendaOnline.Models.Cart
+
+@{
+    ViewData["Title"] = "Edit Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Cart</h1>
+
+<div>
+    <h4>Edit Cart</h4>
+    <hr />
+    <form asp-action="Edit">
+        <dl class="row">
+            <dt class="col-sm-2">
+                Picture
+            </dt>
+            <dd class="col-sm-10">
+                <img src="@Url.Content("~")/Content/Images/@Model.ProductPicture"
+                     alt="@Model.ProductName"
+                     width="200" />
+            </dd>
+            <dt class="col-sm-2">
+                Name
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ProductName)
+            </dd>
+            <dt class="col-sm-2">
+                Price
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ProductPrice)
+            </dd>           
+
+            <dd class="col-sm-12" style="display: none;">
+                <input name="Id" type="number" class="form-control" value="@Html.DisplayFor(model => model.Id)" readonly required />
+                <input name="ProductId" type="text" class="form-control" value="@Html.DisplayFor(model => model.ProductId)" readonly required />
+                <input name="ProductName" type="text" class="form-control" value="@Html.DisplayFor(model => model.ProductName)" readonly required />
+                <input name="ProductPicture" type="text" class="form-control" value="@Html.DisplayFor(model => model.ProductPicture)" readonly required />
+                <input name="ProductPrice" type="number" class="form-control" value="@Html.DisplayFor(model => model.ProductPrice)" readonly required />                
+                <input name="ProductTotal" type="number" class="form-control" value="@Html.DisplayFor(model => model.ProductTotal)" readonly required />
+                <input name="UserId" type="text" class="form-control" value="@Html.DisplayFor(model => model.UserId)" readonly required />
+            </dd>
+
+            <dt class="col-sm-2">
+                Amount to Buy
+            </dt>
+            <dd class="col-sm-10">
+                <input name="ProductAmount" type="number" class="form-control" value="@Html.DisplayFor(model => model.ProductAmount)" required />
+            </dd>
+        </dl>
+        <div class="form-group">
+            <input type="submit" value="Update Item" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
