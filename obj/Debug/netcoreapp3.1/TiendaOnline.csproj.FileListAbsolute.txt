@@ -451,11 +451,6 @@ C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
-C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -480,3 +475,12 @@ C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Tienda
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\TiendaOnline.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Add.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Edit.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs

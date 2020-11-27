@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
 
 namespace TiendaOnline.Models
 {
@@ -13,6 +10,6 @@ namespace TiendaOnline.Models
         public string Category { get; set; }
         public int Price { get; set; }
         public string Brand { get; set; }
-        public string Units { get; set; }
+        public string Units { get; set; }  
     }
 }

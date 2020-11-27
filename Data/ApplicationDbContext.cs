@@ -15,5 +15,7 @@ namespace TiendaOnline.Data
         }
 
         public DbSet<Product> Product { get; set; }
+
+        public DbSet<Cart> Cart { get; set; }
     }
 }

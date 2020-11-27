@@ -1,0 +1,76 @@
+﻿@model IEnumerable<TiendaOnline.Models.Cart>
+
+@{
+    int acum = 0;
+    ViewData["Title"] = "Cart List";
+}
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead class="text-center">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Picture
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                Total
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody class="text-center">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="max-width: 300px;">
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    <center>
+                        <img src="@Url.Content("~")/Content/Images/@item.ProductPicture"
+                             alt="@item.ProductName"
+                             width="100"
+                             style="border: 1px solid #ddd;" />
+                    </center>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductTotal)
+                </td>
+                <td>
+                    <a asp-controller="cart" asp-action="edit" asp-route-id="@item.Id">Details</a> |
+                    <a asp-controller="cart" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+            acum += item.ProductPrice;
+        }
+    </tbody>
+</table>
+
+<table class="table">
+    <tbody >
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th class="text-right">
+                Total to Pay $ @acum
+            </th>         
+        </tr>
+    </tbody>
+</table>

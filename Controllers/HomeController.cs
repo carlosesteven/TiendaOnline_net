@@ -21,6 +21,24 @@ namespace TiendaOnline.Controllers
             return View(await _context.Product.ToListAsync());
         }
 
+        // GET: Products/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = await _context.Product
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return View(product);
+        }
+
         public IActionResult Privacy()
         {
             return View();
