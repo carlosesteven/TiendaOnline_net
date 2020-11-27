@@ -1,6 +1,7 @@
 ﻿@model IEnumerable<TiendaOnline.Models.Cart>
 
 @{
+    int acum = 0;
     ViewData["Title"] = "Cart List";
 }
 <h1>@ViewData["Title"]</h1>
@@ -55,6 +56,21 @@
                     <a asp-controller="cart" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
+            acum += item.ProductPrice;
         }
+    </tbody>
+</table>
+
+<table class="table">
+    <tbody >
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th class="text-right">
+                Total to Pay $ @acum
+            </th>         
+        </tr>
     </tbody>
 </table>

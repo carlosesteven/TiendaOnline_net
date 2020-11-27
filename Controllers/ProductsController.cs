@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,19 @@ namespace TiendaOnline.Controllers
         // GET: Products
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Product.ToListAsync());
+            List<Product> list = await _context.Product.ToListAsync();
+
+            return View(list);
+        }
+
+        private int getTotal(List<Product> list)
+        {
+            int acum = 0;
+            foreach(var obj in list)
+            {
+                acum += obj.Price;
+            }
+            return acum;
         }
 
         // GET: Products/Details/5
