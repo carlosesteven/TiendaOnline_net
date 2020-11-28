@@ -484,3 +484,4 @@ C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Add.cshtml.g.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Edit.cshtml.g.cs
 C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\COMBA VR 2\source\repos\TiendaOnline_net\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Payout.cshtml.g.cs

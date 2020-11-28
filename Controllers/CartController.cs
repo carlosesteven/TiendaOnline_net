@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -139,6 +140,27 @@ namespace TiendaOnline.Controllers
             var product = await _context.Cart.FindAsync(id);
             _context.Cart.Remove(product);
             await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async void DeleteWithoutRedirect(int id)
+        {
+            var product = await _context.Cart.FindAsync(id);
+            _context.Cart.Remove(product);
+            _context.SaveChanges();
+        }
+
+        public async Task<IActionResult> Payout()
+        {
+            var users = await _userManager.FindByEmailAsync(User.Identity.Name);
+
+            List<Cart> list = await _context.Cart.Where(m => m.UserId == users.UserName).ToListAsync();
+
+            foreach (var obj in list)
+            {
+                DeleteWithoutRedirect(obj.Id);
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
