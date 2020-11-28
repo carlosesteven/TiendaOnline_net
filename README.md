@@ -6,6 +6,8 @@
 
 Proyecto desarrollado en el FRAMEWORK de programación .NET, se utilizo una arquitectura MCV (Modelo, Vista, Controlador) para desarrollar todos los componentes del proyecto, el IDE utilizado para el desarrollo del proyecto fue VISUAL STUDIO 2019, para el almacenamiento de los datos se uso una base de datos relacional (SQLITE).
 
+![](wwwroot/Content/Images/diagrama_arquitectura.png)
+
 El proyecto desarrollado en este repositorio es un sistema de una TIENDA EN LINEA, en donde se incorporaron múltiples funcionalidades entre las cuales se encuentran las siguientes.
 
 - Autenticación.
