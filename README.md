@@ -34,7 +34,7 @@ Cliente
 
 Se crearon una lista de 10 productos.
 
-## SISTEMA DE ROLES
+## SISTEMA DE ROLES (ADMINISTRADOR)
 ### Lista de roles: https://localhost:44358/Administration
 ### Nuevo rol: https://localhost:44358/administration/CreateRole
 
